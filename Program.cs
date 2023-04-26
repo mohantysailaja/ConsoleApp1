@@ -270,7 +270,7 @@ namespace ConsoleApp1
                 Console.WriteLine($"Return type: {typeof(T).ToString()},value: {GenericMemberVariable}");
                 return GenericMemberVariable;
             }
-          //  public GenericProperty {get; set;};//throws error need to fix this
+          //  public GenericProperty {get; set;};//throws error need to fix this check
         }       
     }
 }
